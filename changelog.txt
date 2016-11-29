@@ -1,6 +1,12 @@
 Liquibase Core Changelog
 ===========================================
 
+Change in version 2.0.5-jk2 (2016.11.29)
+----------------------
+- Change DropViewGenerator to be Postgres 9 specific and always DROP VIEW IF EXISTS CASCADE
+- Change DropTableGenerator to be Postgres 9 specific and always DROP TABLE IF EXISTS
+- Override PostgresDatabase to declare drop table cascade is supported
+
 Change in version 2.0.5 (2012.05.01) https://liquibase.jira.com/secure/ReleaseNote.jspa?projectId=10020&version=10360
 ----------------------
 - Reverted load blog/clob data from files feature
