@@ -1,3 +1,8 @@
+JUKIN:  Maven 3.3.9:  "mvn clean compile deploy"
+see: https://sites.google.com/a/jukinmedia.com/wiki/home/departments/technology/engineering/engineering-resources/deploy-grails-plugin-to-jukin-artifactory
+
+IGNORE:
+
 release version in jira
 update changelog.txt
 
