@@ -348,6 +348,11 @@ public class PostgresDatabase extends AbstractDatabase {
     }
 
     @Override
+    public boolean supportsDropTableCascadeConstraints() {
+        return true;
+    }
+
+    @Override
     public String escapeIndexName(String schemaName, String indexName) {
         return escapeDatabaseObject(indexName);
     }
