@@ -15,19 +15,19 @@
           <property key="DynamicImport-Package" value="net.sf.cglib.*" />
           <property key="-include" value="src/main/resources/META-INF/MANIFEST.MF" />
           <property key="Bundle-ClassPath" value=".,liquibase-core-2.0.5-SNAPSHOT.jar" />
-          <property key="Include-Resource" value="liquibase-core-2.0.5-SNAPSHOT.jar=$MODULE_DIR$/../liquibase-core/pom.xml" />
+          <property key="Include-Resource" value="liquibase-core-2.0.5-SNAPSHOT.jar=/Users/jerry/git/JukinMediaInc/liquibase/liquibase-core/pom.xml" />
           <property key="Embedded-Artifacts" value="liquibase-core-2.0.5-SNAPSHOT.jar;g=&quot;org.liquibase&quot;;a=&quot;liquibase-core&quot;;v=&quot;2.0.5-SNAPSHOT&quot;" />
         </additionalProperties>
         <additionalJARContents />
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -36,4 +36,3 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.osgi:org.osgi.core:4.1.0" level="project" />
   </component>
 </module>
-
