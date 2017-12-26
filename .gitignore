@@ -2,7 +2,7 @@ target
 .project
 .settings
 .idea/
-*.iml
+#*.iml
 *.ipr
 pom.xml.releaseBackup
 release.properties
