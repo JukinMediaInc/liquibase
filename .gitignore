@@ -1,4 +1,9 @@
 target
 .project
 .settings
+.idea/
+*.iml
+*.ipr
+pom.xml.releaseBackup
+release.properties
 *nb-configuration.xml
