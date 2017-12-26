@@ -1,5 +1,10 @@
-JUKIN:  Maven 3.3.9:  "mvn clean compile deploy"
+JUKIN:  Maven 3.3.9:
+INSTALL: "mvn clean compile install -DskipTests=true"
+DEPLOY SNAPSHOT: "mvn clean compile deploy -DskipTests=true -DaltDeploymentRepository=jukin-jfrog-artifactory::default::https://jukin.jfrog.io/jukin/libs-snapshot-local -Drelease=false"
+DEPLOY RELEASE: "mvn clean compile deploy -DskipTests=true -DaltDeploymentRepository=jukin-jfrog-artifactory::default::https://jukin.jfrog.io/jukin/libs-release-local -Drelease=true"
+
 see: https://sites.google.com/a/jukinmedia.com/wiki/home/departments/technology/engineering/engineering-resources/deploy-grails-plugin-to-jukin-artifactory
+
 
 IGNORE:
 

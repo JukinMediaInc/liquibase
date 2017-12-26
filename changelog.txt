@@ -1,6 +1,10 @@
 Liquibase Core Changelog
 ===========================================
 
+Change in version 2.0.6.jukin (2017.12.26)
+----------------------
+Merge upstream 2_0_x branch
+
 Change in version 2.0.5-jk2 (2016.11.29)
 ----------------------
 - Change DropViewGenerator to be Postgres 9 specific and always DROP VIEW IF EXISTS CASCADE
