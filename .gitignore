@@ -7,3 +7,5 @@ target
 pom.xml.releaseBackup
 release.properties
 *nb-configuration.xml
+liquibase-cdi/
+liquibase-maven-plugin/derby.log
